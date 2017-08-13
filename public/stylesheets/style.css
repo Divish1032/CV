@@ -1,0 +1,598 @@
+body,html{
+	 
+    
+    height: 100%;
+    margin: 0;
+    background-image: url('/images/son-goku.jpg') ;
+    background-repeat: no-repeat;
+
+    
+    background-size: 100% 618px;
+
+
+    
+} 
+
+.user {
+
+position: fixed;
+
+	
+
+
+}
+.bolt{
+	position: relative;
+	top: 232px;
+}
+.hoversel{
+	display: none;
+}
+.user div{
+	display: inline-block;
+	padding-left: 20px;
+	position: relative;
+	top: 140px;
+	display: none;
+}
+.user p{
+	margin: 0;
+	
+}
+.user div span{
+	padding: 4px 10px;
+
+	background-color: black;
+	border-bottom: 1px solid grey; 
+}
+
+.user div span:hover{
+	background-color: #999999;
+	color: white;
+}
+
+.page1{
+	margin: 0;
+	height:618px;
+	background-color: rgba(102, 255, 204, 0.5)
+}
+
+.bolt:hover{
+	color: #999999;
+}
+
+.content {
+ 	width:700px;
+ 	margin:0 auto; 
+ 	
+ 	font-family: 'Oswald', sans-serif;
+  
+  	font-style:italic; 
+  color: black;
+  position: relative;
+  top: 150px;
+}
+.content hr{
+	 display: block;
+	 width: 700px;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid grey;
+    margin:  0;
+    padding: 0;
+}
+.content p{
+	font-size: 40px;
+	font-style: normal;
+	text-align: center;
+	margin: 0;
+}
+
+.content h1{
+	text-align: center;
+	margin: 0;
+	word-spacing: 8px;
+	letter-spacing: 6px;
+	font-size: 96px;
+}
+
+
+
+.page1 i{
+	color: white;
+	position: relative;
+	top: 375px;
+	left: 1100px;
+	padding: 35px 40px 14px;
+	background-color: rgba(0, 0, 0, 0.8);
+	border: 1px solid #1a1a1a;
+}
+
+
+
+
+@keyframes bounce { 
+            0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+            40% {transform: translateY(-30px);} 
+            60% {transform: translateY(-15px);} 
+         }
+
+.bounce { 
+    animation-name: bounce;
+    animation-iteration-count: infinite; 
+ }
+
+.animated{
+    animation-duration: 1s;           
+    animation-fill-mode: both;
+ } 
+
+ i:hover{
+ 	animation-iteration-count: 0;
+ 	cursor: pointer;
+
+ }   
+
+.side{
+	width: 114px;
+	height: 400px;
+	display: inline-block;
+	
+	
+	position: absolute;
+	left: 1100px;
+	top: 620px;
+	background-color: black;
+}
+
+
+.side p{
+	margin:0;
+	text-align: center;
+
+	padding:35px 0 0;
+	color: white;
+	height:80px;
+}
+.page2transition{
+	transition:2s;
+}
+.page2{
+	width:800px;
+	height: 720px;
+	margin: 0 auto;
+}
+.top h1{
+	font-size: 70px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-weight: normal;
+	font-family: 'Crimson Text', serif;
+	color: #ffd633;
+	text-shadow: 2px 2px #ff8c1a;
+}
+.top p{
+	text-align: center;
+	font-size: 25px;
+	font-weight: 100;
+	font-family: 'Average', serif;
+	margin: 0;
+	letter-spacing: 1px;
+}
+.page2 .lower div{
+	padding-top: 50px;
+	width: 33.3%;
+	
+	float:left;
+}
+.page2 .lower h2{
+	color: brown;
+} 
+.page2 img{
+	border: 10px solid #66ffcc;
+	width: 240px;
+	margin-top: 50px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+.page2 .lower::after {
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.page2 .lower p, .page2 .lower h2, .page2 .lower h3{
+	padding: 0 10px;
+}
+.page2 .lower p{
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 20px;
+	word-spacing: 5px;
+	font-size: 17px;
+	margin: 5px;
+}
+.page2 .lower h3{
+	margin: 0;
+
+}
+button{
+	margin: 10px 10px 0;
+}
+.page3{
+	background-color: #66ffcc;
+	height: 2500px;
+}
+hr{
+	width: 800px;
+	margin: 30px auto ;
+	display: block;
+    height: 50px;
+    border: 0;
+    border-bottom: 1px solid grey;
+    
+    padding: 0; 
+}
+#education{
+	width: 800px;
+	margin: 0 auto;
+	font-size: 2em;
+	font-weight: bold;
+	color: brown;
+	letter-spacing: 2px;
+}
+.container{
+	width: 800px;
+	margin: 0 auto;
+
+}
+.container div{
+
+	float:left;
+}
+.container-left{
+	width: 30%;
+
+}
+.container-right{
+	width: 70%;
+}
+.container p{
+	margin: 0;
+	font-size: 1.1em;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.container h3{
+	margin-top: 23px;
+	margin-bottom: 21px;
+}
+
+.container h2{
+	margin-top: 20px;
+	font-size: 1.4em;
+}
+
+.page4{
+	
+	height: 1220px;
+}
+
+.page4 .lower{
+	width: 950px;
+	margin: 0 0 0 275px;
+}
+.page4 .container-star div{
+	width: 25%;
+	float: left;
+}
+ 
+.page4 .container-star::after {
+    content:"";
+    display:table;
+    clear:both;
+}
+.page4 .container-star p{
+	margin-bottom: 0;
+}
+.page4 i{
+	padding-top: 16px;
+	cursor: inherit;
+
+}
+
+.heading p:hover{
+	background-color: #e6e6e6;
+	
+	cursor: pointer;
+	transition:0.5s;
+}
+
+.page4 h2{
+	position: relative;
+	left: -75px;
+}
+
+.page4 hr{
+	position: relative;
+	left: -72px;
+}
+
+#middle{
+	text-align: center;
+	color: black;
+	font-size: 1.1em;
+	position: relative;
+	left: -20px;
+	margin-top: 60px;
+	font-style: italic;
+}
+.page3 button ,.page2 button{
+	border-radius: 5px;
+	background-color: #0059b3;
+	color: white;
+	margin-left: 50px;
+	width: 190px;
+	height: 30px;
+}
+.page3 button:hover , .page2 button:hover{
+	cursor: pointer;
+	background-color: white;
+	color: black;
+}
+.page5 button{
+	width: 170px;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #0059b3;
+	color: white;
+	position: relative;
+	left: 555px;
+	top: -15px;
+
+}
+
+.page4 button:hover{
+	cursor: pointer;
+	background-color: #66ffcc;
+	color: black;
+}
+
+.page5{
+	background-color: #66ffcc;
+	height: 1100px;
+}
+
+.image-container{
+	width: 800px;
+	margin: 0 auto;
+
+}
+
+.image-container div{
+	width: 50%;
+	
+	float: left;
+}
+.image-container div img{
+	width: 95%;
+	padding: 10px;
+	}
+
+.page5 .image-container::after {
+    content:"";
+    display:table;
+    clear:both;
+}
+.page6{
+	background-color: #1a1a1a;
+	height: 670px;
+
+}
+#footer h1{
+	text-shadow:none;
+	margin-top: 0;
+	padding-top: 80px;
+	color: white;
+}
+
+#footer p{
+	color: #666666;
+}
+
+.page6 hr{
+	margin: 0 230px;
+	width: 900px;
+}
+
+.footer-end{
+	width: 900px;
+	margin:0 auto;
+
+}
+
+.footer-end div{
+	width: 48%;
+	float: left;
+	color: #999999;
+}
+
+.page6 .footer-end::after {
+    content:"";
+    display:table;
+    clear:both;
+}
+
+span{
+	padding-left: 20px;
+	position: relative;
+	top: -8px;
+}
+
+span:hover{
+	color: white;
+	cursor: pointer;
+
+
+}
+
+.btn button{
+	height: 25px;
+	background-color: #3b5998;
+	border-radius: 3px;
+	position: relative;
+	left: 490px;
+	top: 50px;
+	margin-left:30px; 
+	cursor: pointer;
+}
+
+#b{
+	background-color: #4da6ff;
+}
+
+#i1{
+	position: relative;
+	top: 62px;
+	left:1017px;
+}
+#i2{
+	position: relative;
+	top: 62px;
+	left:567px;
+}
+#i3{
+	position: relative;
+	top: 339px;
+	left:918px;
+}
+#i4{
+	position: relative;
+	top: 339px;
+	left:470px;
+}
+
+.number:hover{
+	cursor: pointer;
+	
+}
+
+.page3 i{
+	color: #ffd633;
+	position: relative;
+	padding-right: 0px;
+	top: 6px;
+}
+.location{
+	margin-left: 35px !important;
+}
+
+#mobile,#email{
+	font-size: 1.2em;
+	top: 1px;
+	display: none;
+	font-weight: normal;
+}
+
+.mo,.em{
+	font-weight: bold;
+}
+.adend{
+	font-weight: bold;
+	text-align: center;
+	padding-left: 65px;
+	color: #999999;
+	padding-top: 20px;
+}
+ 	
+#home{
+	font-size: 1.2em;
+	display: none;
+	font-weight: normal;
+	top: 5px;
+}
+.adend i{
+	padding-right: 22px;
+}
+.facelike{
+	padding: 0;
+	top: 0px;
+}
+
+#collarge img{
+	float: left;
+	width: 45%;
+	height: 115px;
+
+}
+
+.filter{
+	display: none;
+	color: white;
+	text-align: center;
+
+}
+.image-container img{
+	border-radius: 25px !important;
+}
+.image-container div{
+	border-radius: 15px;
+}
+.image-container div:hover img{
+	display: none;
+}
+.image-container div:hover .filter{
+	display:block;
+	width:95%;
+	margin: 10px;
+	height: 245px;
+	background:  linear-gradient(to right, #304352, #d7d2cc);
+	
+
+}
+.filter a{
+	border: 1px solid black;
+	padding: 5px 20px;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	position: relative;
+	text-decoration: none;
+	top: 40px;
+	
+}
+.filter a:hover{
+	color: black;
+	background-color: white;
+	font-weight: bold;
+}
+
+
+#collarge a{
+	float: left;
+	margin: 5px 30px;
+}
+.page5 button:hover{
+	background-color: white;
+	color: black;
+}
+
+.footer-end{
+	padding:20px 0 10px 75px;
+}
+
+.adend{
+	padding:30px 0 0 135px;
+}
+
+#b:hover{
+	color: white;
+}
+
+.facebook2:hover {
+	color: white;
+}
+
+.facebook2:hover i{
+	color: black;
+}
+
