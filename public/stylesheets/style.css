@@ -15,6 +15,9 @@ html, body{
 
     
 } 
+.bounce{
+	float: right;
+}
 .page1{
 	padding-bottom: 82px;
 	height: 100%;
@@ -102,6 +105,17 @@ i:hover{
 	background-color: #66ffcc;
 	
 }
+.page3 button{
+	background-color:  #007bff;
+	
+}
+
+.page3 button:hover{
+	color: white;
+	font-style: italic;
+	font-weight: bold;
+	border:1px solid #007bff;
+}
 .page6 .jumbotron{
 
 	background-color: #1a1a1a;
@@ -161,7 +175,16 @@ i:hover{
 	
 	letter-spacing: 1px;
 }
+.page5 button{
+	background-color: #ffc107;
+}
 
+.page5 button:hover{
+		color: white;
+		font-style: italic;
+		font-weight: bold;
+		border:1px solid #ffc107;
+}
 hr{
 	width: 70%;
 	margin: 30px auto;
@@ -267,6 +290,11 @@ hr{
 }
 .page4{
 	padding-bottom: 60px;
+}
+.starsrow div{
+	float: left;
+	width: 45%;
+	padding-left: 20px;
 }
 .page4 .row{
 	margin-bottom: 0;
