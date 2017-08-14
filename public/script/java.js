@@ -290,4 +290,98 @@ $(window).resize(function(){
    else{
    		 $('.address').css("text-align","center");
    }
-})      
+})     
+
+ if($(window).width()<=500){
+      //execute code here.
+     $('.page1 h1').css("font-size","60px");
+     $('.page2 h1').css("font-size","40px");
+   }
+   else{
+   		  $('.page1 h1').css("font-size","96px");
+     $('.page2 h1').css("font-size","63px");
+   }
+
+
+ if($(window).width()<=500){
+      //execute code here.
+     $('.page1 h1').css("font-size","60px");
+     $('.page2 h1').css("font-size","40px");
+     $('.page3 h1').css("font-size","40px");
+     $('.page1 p').css("font-size","25px");
+          $('.page1 ').css("background-size"," 100% 500px");
+
+   }
+   else{
+   		  $('.page1 h1').css("font-size","96px");
+   		   
+   		   $('.page3 h1').css("font-size","63px");
+     $('.page2 h1').css("font-size","63px");
+     $('.page1 ').css("background-size","100% 670px");
+   }
+
+
+$(window).resize(function(){
+   if($(window).width()<=500){
+      //execute code here.
+     $('.page1 h1').css("font-size","60px");
+     $('.page2 h1').css("font-size","40px");
+     $('.page3 h1').css("font-size","40px");
+     $('.page1 p').css("font-size","25px");
+          $('.page1 ').css("background-size"," 100% 500px");
+
+   }
+   else{
+   		  $('.page1 h1').css("font-size","96px");
+   		   
+   		   $('.page3 h1').css("font-size","63px");
+     $('.page2 h1').css("font-size","63px");
+     $('.page1 ').css("background-size","100% 670px");
+   }
+})     
+
+if($(window).width()<=500){
+      //execute code here.
+     $('.main').css("position","relative");
+     $('.main').css("left","-60px");
+     
+   }
+   else{
+   	$('.main').css("position","static");
+   }
+$(window).resize(function(){
+   if($(window).width()<=500){
+      //execute code here.
+     $('.main').css("position","relative");
+     $('.main').css("left","-60px");
+     
+   }
+   else{
+   	$('.main').css("position","static");
+   	$('.main').css("left","0px");
+   	
+   }
+})
+
+ if($(window).width()<=519){
+      //execute code here.
+     $('.page3 i').hide();
+     
+     
+   }
+   else{
+   	$('.page3 i').show();
+   }
+
+
+$(window).resize(function(){
+   if($(window).width()<=519){
+      //execute code here.
+     $('.page3 i').hide();
+     
+     
+   }
+   else{
+   	$('.page3 i').show();
+   }
+})
