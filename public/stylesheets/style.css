@@ -449,6 +449,9 @@ button:hover{
 	float: left;
 	margin: 17px 25px;
 }
+.secondrow{
+	margin: 46px auto;
+}
 .colla h5{
 	margin	:20px 10px; 
 }
