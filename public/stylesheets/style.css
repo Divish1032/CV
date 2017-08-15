@@ -10,7 +10,7 @@ html, body{
     background-repeat: no-repeat;
 
     
-    background-size: 100% 662px;
+    background-size: 100% 650px;
 
 
     
@@ -52,7 +52,7 @@ html, body{
 .page1 i{
 	color: white;
 	
-	padding: 35px 39px 21px;
+	padding: 35px 39px 2px;
 	background-color: rgba(0, 0, 0, 0.8);
 	border: 1px solid #1a1a1a;
 	
@@ -250,7 +250,7 @@ hr{
 .side2{
 	float: right;
 	position: relative;
-	top: -830px;
+	top: -820px;
 }
 
 .perfect p{
@@ -450,7 +450,7 @@ button:hover{
 	margin: 17px 25px;
 }
 .secondrow{
-	margin: 46px auto;
+	margin: 50px auto;
 }
 .colla h5{
 	margin	:20px 10px; 
