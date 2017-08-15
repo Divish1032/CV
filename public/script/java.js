@@ -91,7 +91,7 @@ $( window ).scroll(function() {
 
 
 	}
-	else if(document.body.scrollTop>=5446&&document.body.scrollTop<=6607){
+	else if(document.body.scrollTop>=5446&&document.body.scrollTop<=6507){
 	var styles = {
       background : "#ffd633"
       
