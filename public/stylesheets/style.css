@@ -409,7 +409,7 @@ button:hover{
 .filter:hover {
 	background:  linear-gradient(to right, #304352, #d7d2cc);
 	border-radius: 15px;
-	height: 227px;
+	
 	
 	
 
@@ -430,7 +430,7 @@ button:hover{
 .filter a{
 	text-align: center;
 	width: 120px;
-	margin: 10px auto;
+	margin: 43px auto;
 	border: 1px solid black;
 	padding: 5px 20px;
 	border-radius: 5px;
@@ -447,7 +447,7 @@ button:hover{
 .colla a{
 	width: auto;
 	float: left;
-	margin: 5px 30px;
+	margin: 17px 25px;
 }
 .colla h5{
 	margin	:20px 10px; 
