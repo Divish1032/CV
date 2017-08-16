@@ -427,3 +427,25 @@ $(".chaar img").on("click", function(){
     $(".yahoo")[3].attr("href", "MyProject/HTML pages/project4/index.html" )
     
 });
+
+
+
+$("#yelp a").on("click", function(){
+ $('.close').click().animate({},672,'swing');
+})
+ 
+ 
+ 
+ $(window).resize(function(){
+   if($(window).width()<=697){
+      //execute code here.
+     $('.modal-body').css("height","180px");
+     
+     
+   }
+   else{
+   	$('.modal-body').css("height","130px");
+   
+   	
+   }
+})

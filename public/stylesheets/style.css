@@ -444,7 +444,8 @@ background: linear-gradient(to right, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, F
 	
 
 	.yahoo {
-	margin: 0 0 0 40px!important;
-	width: 90px!important;
+	margin: 0 0 0 30px!important;
+	width: 107px!important;
 	float: left;
-	}
+	text-align: center;
+		}
