@@ -91,7 +91,7 @@ $( window ).scroll(function() {
 
 
 	}
-	else if(document.body.scrollTop>=5446&&document.body.scrollTop<=6507){
+	else if(document.body.scrollTop>=5446&&document.body.scrollTop<=6907){
 	var styles = {
       background : "#ffd633"
       
@@ -436,16 +436,4 @@ $("#yelp a").on("click", function(){
  
  
  
- $(window).resize(function(){
-   if($(window).width()<=697){
-      //execute code here.
-     $('.modal-body').css("height","180px");
-     
-     
-   }
-   else{
-   	$('.modal-body').css("height","130px");
-   
-   	
-   }
-})
+ 
