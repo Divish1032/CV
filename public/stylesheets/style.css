@@ -373,7 +373,7 @@ button span{
 .page6{
 	background-color: #1a1a1a!important;
 	color: #666666;
-	padding-bottom: 55px;
+	padding-bottom: 75px;
 }
 
 .buttoncon{
@@ -442,7 +442,9 @@ background: linear-gradient(to right, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, F
 		
 	}
 	
-
+.filter:hover{
+	cursor:pointer;
+}
 	.yahoo {
 	margin: 0 0 0 30px!important;
 	width: 107px!important;
