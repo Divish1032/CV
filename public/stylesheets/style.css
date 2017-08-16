@@ -394,69 +394,57 @@ button:hover{
 	display: none;
 	font-weight: normal;
 }
-.filter h5,.filter p ,.filter a{
-	display: none;
-}
-.filter:hover img{
-	display: none;
-
-}
-
-.filter:hover h5,.filter:hover p,.filter:hover a{
-	display: block;
-	
-}
-.filter:hover {
-	background:  linear-gradient(to right, #304352, #d7d2cc);
-	border-radius: 15px;
-	
-	
-	
-
-}
-
-.filter h5{
-	margin: 10% 0;
-	text-align: center;
-	font-size: 32px;
 
 
-}
-.filter p{
-	text-align: center;
-	font-size: 17px;
-	font-style: italic;
-}
-.filter a{
-	text-align: center;
-	width: 120px;
-	margin: 43px auto;
-	border: 1px solid black;
-	padding: 5px 20px;
-	border-radius: 5px;
-	color: white;
-	cursor: pointer;
-	position: relative;
-	text-decoration: none;
-}
-.filter a:hover {
-	background-color: white;
-	color: #999;
-	font-weight: bold;
-}
-.colla a{
-	width: auto;
-	float: left;
-	margin: 17px 25px;
-}
-.secondrow{
-	margin: 50px auto;
-}
-.colla h5{
-	margin	:20px 10px; 
-}
+
 .page6 span:hover{
 	cursor: pointer;}
 	.page6 i:hover{
 		cursor: default;
+	}
+	
+	
+	.page5 .row button{
+		display: none;
+	}
+	#yelp {
+	  background: #F09819;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EDDE5D, #F09819);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	}
+	.modal-body{
+		height:130px!important;
+	}
+
+	#yelp h4{
+		text-align: center;
+		border:none!important;
+		color: white;
+		
+	}
+	#yelp p{
+		text-align: center;
+		font-size: 1.2em;
+		padding-bottom:30px;
+	}
+	
+	#yelp a{
+		text-decoration:none;
+		border:1px solid grey;
+		background:#999;
+		color:white;
+		padding: 10px;
+		width:70px;
+		margin:0 0 0 230px ;
+		
+		border-radius:10px;
+		
+	}
+	
+
+	.yahoo {
+	margin: 0 0 0 40px!important;
+	width: 90px!important;
+	float: left;
 	}

@@ -385,3 +385,45 @@ $(window).resize(function(){
    	$('.page3 i').show();
    }
 })
+
+
+
+$(".ek img").on("click", function(){
+ $(this).next().click();
+  $('#yelp span').css("dispaly","none");
+  $('.how a').removeClass('yahoo');
+});
+
+$(".do img").on("click", function(){
+ $(this).next().click();
+ $('#yelp span').css("display","none");
+ $('#yelp h4').text("ToDoList");
+     $('#yelp p').text("Make A List Of Your Do's N Dont's"); 
+     $('.how a').removeClass('yahoo');
+     
+    $("#yelp a").attr("href", "MyProject/Todo/index.html" )
+});
+
+$(".teen img").on("click", function(){
+ $(this).next().click();
+  $('#yelp span').css("dispaly","none");
+  $('.how a').removeClass('yahoo');
+ $('#yelp h4').text("Patatap Model");
+     $('#yelp p').text("Let's Your Fingers Have The Music"); 
+     
+    $("#yelp a").attr("href", "MyProject/Patatap/circles.html" )
+});
+
+$(".chaar img").on("click", function(){
+ $('#google').click();
+  $('#yelp span').css("display","inline");
+  $('.how a').addClass('yahoo');
+ $('#yelp h4').text("HTML Pages");
+     $('#yelp p').text("Four HTML Reponsive Projects"); 
+     
+    $(".yahoo")[0].attr("href", "MyProject/HTML pages/project1/index.html" );
+    $(".yahoo")[1].attr("href", "MyProject/HTML pages/project2/index.html" );
+    $(".yahoo")[2].attr("href", "MyProject/HTML pages/project3/index.html" );
+    $(".yahoo")[3].attr("href", "MyProject/HTML pages/project4/index.html" )
+    
+});

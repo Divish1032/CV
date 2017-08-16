@@ -7,9 +7,13 @@
 	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="/stylesheets/style.css?v=1">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" ></script>
 </head>
 <body>
+	
 	<div class="page1 clearfix">
 		<div class="container">
 			<h1 class="heading">Divyansh Kumar</h1>
@@ -58,7 +62,7 @@
 				  	</div>
 				</div>
 			</div>
-
+	
 		</div>
 		<div  class=" perfect float-right " >
 			<p id="1" class="number pg2">Profile</p>
@@ -71,7 +75,19 @@
 		
 		
 	</div>
-
+	
+	
+	
+	
+	<div class="popup">
+	  <h1>
+	    hey everyone !
+	  </h1>
+	  <span class="close">
+	    <i class="fa fa-close"></i>
+	  </span>
+	</div>
+	
 	<div class="page3">
 		<div class="jumbotron jumbotron-fluid" >
 		  <div class="container">
@@ -716,28 +732,22 @@
 		<div class="container ">
 			
 			<div class="row">
-			  	<div class="col-12 filter col-md-6">
+			  	<div class="col-12 filter ek col-md-6">
 			  		<img src="/images/yelpground.JPG">
-			  		<h5>YelpCampgrounds</h5>
-			  		<p>A Place Where You Meet With You Dream</p>
-					<a href="https://serene-thicket-86337.herokuapp.com/" target="_blank">Click Here</a>
+			  		  <button type="button" class="btn  btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
 			  	</div>
-			  	<div class="col-12 filter col-md-6">
+			  	<div class="col-12 filter do col-md-6">
 			  		<img src="/images/todo.JPG">
-			  		<h5>ToDoList</h5>
-					<p>Make A List Of Your Do's N Dont's</p>
-					<a href="MyProject/Todo/index.html" target="_blank">Click Here</a>
+			  		  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
 			  	</div>
 			</div>
 
 			<div class="row secondrow" >
-			  	<div class="col-12 filter  col-md-6">
+			  	<div class="col-12 filter teen col-md-6">
 			  		<img src="/images/pata.JPG" >
-			  		<h5>Patatap Model</h5>
-					<p>Let's Your Fingers Have The Music</p>
-					<a href="MyProject/Patatap/circles.html" target="_blank">Click Here</a>
+			  		  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
 			  	</div>
-			  	<div class="col-12 filter  colla col-md-6 html">
+			  	<div class="col-12 filter  chaar colla col-md-6 html">
 			  		<div class="row ">
 					  	<div class="col-6 ">
 					  		<img src="/images/project3.JPG">
@@ -756,12 +766,7 @@
 					  		<img class="lastimg" src="/images/project2.JPG">
 					  	</div>
 					</div>	
-					<h5>HTML Pages</h5>
-					<p>Four HTML Reponsive Projects</p>
-					<a href="MyProject/HTML pages/project1/index.html" target="_blank">theBlog</a>
-					<a href="MyProject/HTML pages/project2/index.html" target="_blank">Buiseness Theme</a>
-					<a href="MyProject/HTML pages/project3/index.html" target="_blank">Portfolio Resume</a>
-					<a href="MyProject/HTML pages/project4/index.html" target="_blank">Double</a>
+					<button type="button" id="google" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
 			  	</div>
 
 			</div>
@@ -807,7 +812,39 @@
 
 
 	</div>
+	
+	<div  class="modal  fade" id="myModal" role="dialog">
+	    <div class="modal-dialog">
+	    
+	      <!-- Modal content-->
+	      <div class="modal-content" id="yelp">
+	        <div class="modal-header">
+	          <button type="button" class="close" data-dismiss="modal">&times;</button>
+	          <h4 class="modal-title">YelpCampgrounds</h4>
+	        </div>
+	        <div class="modal-body">
+	          <p>A Place Where You Meet With You Dream</p>
+	          <div class="how">
+		          <a href="https://serene-thicket-86337.herokuapp.com/" target="_blank">Click Here</a>
+		          <span style="display:none;"><a href="MyProject/HTML pages/project2/index.html" target="_blank">Click Here</a>
+		          <a href="MyProject/HTML pages/project3/index.html" target="_blank">Click Here</a>
+		          <a href="MyProject/HTML pages/project4/index.html" target="_blank">Click Here</a></span>
+	          </div>
+	          </div>
+	       
+	      </div>
+	    </div>
+  	</div>
+  	
+  	
 
 	<script type="text/javascript" src="/script/java.js"></script>
 </body>
 </html>
+
+
+					
+					
+					
+
+					
