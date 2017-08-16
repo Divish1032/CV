@@ -77,7 +77,7 @@ $( window ).scroll(function() {
     $(".number").css(styles1);
 	$('#2').css(styles);
 	}
-	else if(document.body.scrollTop>=4048&&document.body.scrollTop<=5445){
+	else if(document.body.scrollTop>=4048&&document.body.scrollTop<=5149){
 	var styles = {
       background : "#ffd633"
       
@@ -91,7 +91,7 @@ $( window ).scroll(function() {
 
 
 	}
-	else if(document.body.scrollTop>=5446&&document.body.scrollTop<=5725){
+	else if(document.body.scrollTop>=5150&&document.body.scrollTop<=6275){
 	var styles = {
       background : "#ffd633"
       
