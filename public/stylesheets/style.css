@@ -109,12 +109,7 @@ i:hover{
 	background-color:  #007bff;
 	
 }
-.wow span{
-	border-radius: 20px;
-}
-.wow p{
-	margin-bottom:10px;
-}
+
 .page3 button:hover{
 	color: white;
 	font-style: italic;
@@ -458,8 +453,60 @@ background: linear-gradient(to right, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, F
 		}
 		
 		
+		aside img{
+			width:100%;
+			
+		}
 		
-		
-		
-		
-		
+	
+		.q-question {
+			width:100%!important;
+  box-sizing: border-box;
+  background-color:  black;
+  text-align: center;
+  
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.7);
+  
+  
+}
+.q-question h3 {
+  margin: 0;
+  padding: .5em  0 .25em 0;
+  font-weight: 700;
+  font-size: 1.75em;
+  text-transform: uppercase;
+  color: #003334;
+}
+.q-question p {
+  line-height: 1.65em;
+  margin: 0 auto 1em auto;
+  color: #cccccc;
+  font-weight: 200;
+  width: 65%;
+}
+@media (max-width: 50em) {
+  .q-question p {
+    width: 100%;
+  }
+}
+.q-question form textarea {
+  background: transparent;
+  border: 1px solid #005f5f;
+  border-radius: .25em;
+  width: 55%;
+  padding: .5em;
+  outline: none;
+  font-size: 1.25em;
+  color: #cccccc;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 200;
+  box-shadow: 5px 5px 0px #006464;
+  box-sizing: border-box;
+}
+@media (max-width: 50em) {
+  .q-question form textarea {
+    width: 100%;
+  }
+}
+

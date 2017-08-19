@@ -432,22 +432,46 @@ $(".chaar img").on("click", function(){
 
 
 
-$('.pop-up').hide(0);
-$('.pop-up-container').hide(0);
+ $('.q-question').hide();
 
-$('.pop-up-button').click(function(){
-  $('.pop-up-container').show(0);
-  $('.pop-up').fadeIn(300);
-  $('.pop-up-button').hide(0);
-});
-$('.pop-up span').click(function() {
-  $('.pop-up-container').hide(0);
-  $('.pop-up').hide(0);
-  $('.pop-up-button').show(0);
+$('.clickr1').click(function(){
+  $('.ques1').slideToggle();
 });
  
+ $('.clickr2').click(function(){
+  $('.ques2').slideToggle();
+});
+
+$('.clickr3').click(function(){
+  $('.ques3').slideToggle();
+});
  
  
+ $('.clickr4').click(function(){
+  $('.ques4').slideToggle();
+});
+ 
+ $('.clickr5').click(function(){
+  $('.ques5').slideToggle();
+});
+ 
+ $('.clickr6').click(function(){
+  $('.ques6').slideToggle();
+});
+ 
+ $('.clickr7').click(function(){
+  $('.ques7').slideToggle();
+});
+
+ $('.clickr8').click(function(){
+  $('.ques8').slideToggle();
+});
+
+ $('.clickr9').click(function(){
+  $('.ques9').slideToggle();
+});
+ 
+
  
  
  
