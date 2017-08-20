@@ -151,6 +151,8 @@ i:hover{
 	padding: 5px;
 	color: white;
 	margin: 0 ;
+	border-radius: 21px;
+	margin-bottom: 5px;
 		background-color: black;
 	border-bottom: 1px solid grey;
 }
